@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8BDF34F-97E5-4D94-9BA9-E78E26C15D29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{22256A71-77DF-4882-AB99-5ED81A165AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileManagement.Core", "AgileManagement.Core\AgileManagement.Core.csproj", "{CCF60565-A910-43FF-B626-4939FB9E3A6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCF60565-A910-43FF-B626-4939FB9E3A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF60565-A910-43FF-B626-4939FB9E3A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF60565-A910-43FF-B626-4939FB9E3A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF60565-A910-43FF-B626-4939FB9E3A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22256A71-77DF-4882-AB99-5ED81A165AD6} = {C8BDF34F-97E5-4D94-9BA9-E78E26C15D29}
+		{CCF60565-A910-43FF-B626-4939FB9E3A6B} = {22256A71-77DF-4882-AB99-5ED81A165AD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47F653FE-4F68-4C9D-9E73-4DFC3C638C30}
+	EndGlobalSection
+EndGlobal
